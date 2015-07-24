@@ -1,15 +1,14 @@
 package pl.metaminers.game;
 
-import com.badlogic.gdx.ApplicationListener;
+import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-public class MineFooGame implements ApplicationListener {
+public class MineFooGame extends Game {
 	private SpriteBatch batch;
 	private Texture img;
-	private Screen screen;
 	
 	@Override
 	public void create () {
